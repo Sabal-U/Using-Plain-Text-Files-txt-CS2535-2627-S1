@@ -1,6 +1,6 @@
 checksum = 0
 
-with open("checksum_input.txt", "r") as input_file:
+with open("checksum_practice_input.txt", "r") as input_file:
     with open("checksum_results.txt", "w") as output_file:
         for line in input_file:
             line = line.strip()
